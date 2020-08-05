@@ -1,6 +1,8 @@
 'use strict';
 // https://www.npmjs.com/package/svgo
 
+// TO RUN: node script.js {name of file to run w/o .svg extension}
+
 const FS = require('fs');
 const PATH = require('path');
 const SVGO = require('svgo');
